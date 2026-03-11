@@ -1,4 +1,7 @@
-def saludar():
-    print("hola")
+contadores = 0
 
-saludar()
+def incrementar():
+    contadores += 1
+    print(contadores)
+
+incrementar()
